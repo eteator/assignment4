@@ -12,6 +12,11 @@ body {
     font-family: sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+ .front {
+    display: none;
+  }
+}
 
 a:link {
     color: #000000;
@@ -161,13 +166,10 @@ nav {
 }
 
 
-@media all and (max-width: 400px) {
-  .container > li {
-    flex-basis: 100%;
-  }
-  .search {
-    order: 1;
-  }
+@media only screen and (max-width: 1026px) {
+    #frontphoto {
+        display: none;
+    }
 }
 
 header {
@@ -256,7 +258,6 @@ header nav li {
 .Facts {
     background-color: aliceblue;
     justify-content: center;
-    width: block;
 }
 
 .RowOne {
